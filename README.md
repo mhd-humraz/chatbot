@@ -45,3 +45,39 @@ This chatbot uses a **rule-based approach**, where predefined conditions and res
 ---
 
 ## 📂 Project Structure
+```
+assistant-chatbot/
+│── app.py
+│── README.md
+│── requirements.txt
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/mhd-humraz/chatbot.git
+cd chatbot
+```
+```
+pip install -r requirements.txt
+```
+## How It Works
+* User enters a message
+* Chatbot processes input using predefined rules
+* A relevant response is generated instantly
+ ---
+## Challenges Faced
+Designing meaningful responses
+Managing session state in Streamlit
+Creating smooth UI interaction
+
+ 
+ ## Future Improvements
+ 
+Add AI-based responses
+Voice input/output integration
+Expand chatbot knowledge
+Deploy online for public use
